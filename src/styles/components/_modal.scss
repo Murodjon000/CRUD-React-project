@@ -1,0 +1,45 @@
+#modal {
+  background-color: rgba(248, 247, 247, 0.9);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal:empty {
+  display: none;
+}
+
+#modal > div {
+  background-color: white;
+  max-width: 500px;
+  padding: 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.modal__wrapper {
+  &-icon {
+    font-family: $Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    color: $warm-grey;
+
+    @include normal-font;
+
+    &:hover {
+      color: black;
+    }
+  }
+}

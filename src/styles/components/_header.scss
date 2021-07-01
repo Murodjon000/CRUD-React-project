@@ -1,0 +1,89 @@
+.header__box {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border-bottom: solid 1px $white-300;
+  background-color: $white;
+
+  &_innerBox > a:nth-child(2) {
+    margin-left: 41px;
+    font-family: $Montserrat;
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: uppercase;
+    opacity: 0.5;
+
+    &.active {
+      opacity: 1;
+    }
+  }
+
+  &_innerBox-logo {
+    color: $azure;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: $Montserrat;
+  }
+
+  & > div {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.header-btn {
+  padding: 7px 19px 8px 22px;
+  background-color: $azure;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: $RobotoSlab;
+
+  @include normal-font;
+}
+
+.menuBars__wrapper {
+  display: none;
+}
+
+.smallHeader__wrapper {
+  background-color: rgba(248, 247, 247, 0.9);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 10;
+  transition: all 0.6s ease-in-out;
+
+  & > div:nth-child(1) {
+    margin: 10px 20px;
+
+    & > span {
+      font-size: 30px;
+    }
+  }
+
+  & > div:nth-child(2) {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+    & > a {
+      font-size: 30px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    & > button {
+      padding: 7px 19px 8px 22px;
+      background-color: $azure;
+      color: white;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: $RobotoSlab;
+
+      @include normal-font;
+    }
+  }
+}

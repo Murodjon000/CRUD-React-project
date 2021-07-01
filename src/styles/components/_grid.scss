@@ -1,0 +1,32 @@
+@media only screen and (min-width: 768px) {
+  .projects__container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header-btn {
+    display: none;
+  }
+
+  .projects-link {
+    display: none;
+  }
+
+  .menuBars__wrapper {
+    display: block !important;
+
+    & > i {
+      font-size: 30px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .projects__container {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+  }
+}
