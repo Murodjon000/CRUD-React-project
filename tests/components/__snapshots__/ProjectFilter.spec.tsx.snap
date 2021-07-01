@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Details component Snapshot 1`] = `
+<div
+  className="project__details-wrapper"
+>
+  <div
+    className="project__details-wrapper-image"
+  >
+    <img
+      alt=""
+      className="test-img"
+      src="https://miro.medium.com/max/1000/1*9xsPgsjcFOnwhgPwtsO_HQ.jpeg"
+    />
+  </div>
+  <div
+    className="project__details-wrapper-box"
+  >
+    <h1
+      className="test-title"
+    >
+      Where can I get some?
+    </h1>
+    <p
+      className="test-desc"
+    >
+       
+      👀 PageMaker including versions of Lorem Ipsum.
+    </p>
+    <button
+      className="test-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      Back to home
+    </button>
+  </div>
+</div>
+`;
+
+exports[`should render ProjectFilter component Snapshot 1`] = `
+<div
+  className="filter__wrapper"
+>
+  <select
+    className="test-filter"
+    name="category"
+    onChange={[Function]}
+    value="All"
+  >
+    <option
+      key="All"
+      value="All"
+    >
+      All
+    </option>
+    <option
+      key="High"
+      value="High"
+    >
+      High
+    </option>
+    <option
+      key="Medium"
+      value="Medium"
+    >
+      Medium
+    </option>
+    <option
+      key="Low"
+      value="Low"
+    >
+      Low
+    </option>
+  </select>
+</div>
+`;

@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Details component Snapshot 1`] = `
+<div
+  className="project__details-wrapper"
+>
+  <div
+    className="project__details-wrapper-image"
+  >
+    <img
+      alt=""
+      className="test-img"
+      src="https://miro.medium.com/max/1000/1*9xsPgsjcFOnwhgPwtsO_HQ.jpeg"
+    />
+  </div>
+  <div
+    className="project__details-wrapper-box"
+  >
+    <h1
+      className="test-title"
+    >
+      Where can I get some?
+    </h1>
+    <p
+      className="test-desc"
+    >
+       
+      👀 PageMaker including versions of Lorem Ipsum.
+    </p>
+    <button
+      className="test-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      Back to home
+    </button>
+  </div>
+</div>
+`;
+
+exports[`should render EditProject component Snapshot 1`] = `
+<div
+  className="form__wrapper"
+>
+  <hr
+    className="form__wrapper-line"
+  />
+  <h1>
+    Update Project
+  </h1>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="upadte-form-wrapper"
+    >
+      <label
+        htmlFor="title"
+      >
+        Title
+        <FormHelper
+          className="form-update-input"
+          id="title"
+          onChange={[Function]}
+          placeholder="Project title"
+          type="text"
+          value="Where can I get some?"
+        />
+      </label>
+      <label
+        htmlFor="category"
+      >
+        Select Priority
+        <select
+          className="form-update-input"
+          name="category"
+          onChange={[Function]}
+          value="High"
+        >
+          <option
+            key="High"
+            value="High"
+          >
+            High
+          </option>
+          <option
+            key="Medium"
+            value="Medium"
+          >
+            Medium
+          </option>
+          <option
+            key="Low"
+            value="Low"
+          >
+            Low
+          </option>
+        </select>
+      </label>
+    </div>
+    <label
+      htmlFor="image"
+    >
+      Image link
+      <FormHelper
+        className="form-update-input"
+        id="image"
+        onChange={[Function]}
+        placeholder="Project Image link"
+        type="text"
+        value="https://miro.medium.com/max/1000/1*9xsPgsjcFOnwhgPwtsO_HQ.jpeg"
+      />
+    </label>
+    <label
+      htmlFor="description"
+    >
+      Description
+      <FormHelper
+        className="form-update-input"
+        id="description"
+        onChange={[Function]}
+        placeholder="Project description"
+        type="textarea"
+        value="PageMaker including versions of Lorem Ipsum."
+      />
+    </label>
+    <input
+      className="primary-btn"
+      type="submit"
+      value="Update Project"
+    />
+  </form>
+</div>
+`;

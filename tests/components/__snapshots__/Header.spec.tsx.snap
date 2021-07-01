@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Details component Snapshot 1`] = `
+<div
+  className="project__details-wrapper"
+>
+  <div
+    className="project__details-wrapper-image"
+  >
+    <img
+      alt=""
+      className="test-img"
+      src="https://miro.medium.com/max/1000/1*9xsPgsjcFOnwhgPwtsO_HQ.jpeg"
+    />
+  </div>
+  <div
+    className="project__details-wrapper-box"
+  >
+    <h1
+      className="test-title"
+    >
+      Where can I get some?
+    </h1>
+    <p
+      className="test-desc"
+    >
+       
+      👀 PageMaker including versions of Lorem Ipsum.
+    </p>
+    <button
+      className="test-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      Back to home
+    </button>
+  </div>
+</div>
+`;
+
+exports[`should render Header component Snapshot 1`] = `
+<header
+  className="header-test"
+>
+  <div
+    className="header__box"
+  >
+    <div
+      className="header__box_innerBox"
+    >
+      <Link
+        className="header__box_innerBox-logo"
+        to="/"
+      >
+        ProjectList
+      </Link>
+    </div>
+    <div>
+      <button
+        className="header-btn"
+        onClick={[Function]}
+      >
+        Sign up
+      </button>
+      <span
+        className="menuBars__wrapper"
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-bars"
+        />
+      </span>
+    </div>
+  </div>
+  <div />
+</header>
+`;

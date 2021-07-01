@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Details component Snapshot 1`] = `
+<div
+  className="project__details-wrapper"
+>
+  <div
+    className="project__details-wrapper-image"
+  >
+    <img
+      alt=""
+      className="test-img"
+      src="https://miro.medium.com/max/1000/1*9xsPgsjcFOnwhgPwtsO_HQ.jpeg"
+    />
+  </div>
+  <div
+    className="project__details-wrapper-box"
+  >
+    <h1
+      className="test-title"
+    >
+      Where can I get some?
+    </h1>
+    <p
+      className="test-desc"
+    >
+       
+      👀 PageMaker including versions of Lorem Ipsum.
+    </p>
+    <button
+      className="test-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      Back to home
+    </button>
+  </div>
+</div>
+`;
+
+exports[`should render Project component Snapshot 1`] = `
+<div
+  className="project__wrapper "
+>
+  <Link
+    to="/project/1225232"
+  >
+    <div
+      className="project__wrapper-image"
+    >
+      <img
+        alt=""
+        className="test-project-img"
+        src="https://miro.medium.com/max/1000/1*9xsPgsjcFOnwhgPwtsO_HQ.jpeg"
+      />
+    </div>
+  </Link>
+  <div
+    className="project__wrapper-info "
+  >
+    <h2
+      className="test-project-title"
+    >
+      Where can I get some?
+    </h2>
+    <p
+      className="text-link test-project-desc"
+    >
+      PageMaker including versions of Lorem Ipsum.
+    </p>
+    <div
+      className="project__wrapper-info-bottom"
+    >
+      <button
+        className="text-link test-project-cat-btn"
+        type="button"
+      >
+        High
+      </button>
+      <span
+        className="line-border"
+      />
+      <button
+        className="text-link test-project-rm-btn"
+        onClick={[Function]}
+        type="button"
+      >
+        Remove
+      </button>
+      <span
+        className="line-border"
+      />
+      <button
+        className="text-link test-project-up-btn"
+        onClick={[Function]}
+        type="button"
+      >
+        Update
+      </button>
+    </div>
+  </div>
+</div>
+`;
