@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`filter reducer should handle CHANGE_FILTER 1`] = `"All"`;
+
+exports[`filter reducer should return the initial state 1`] = `"All"`;
